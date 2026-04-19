@@ -86,25 +86,8 @@ a:hover {
   color: white;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-}
-
 .card {
   padding: 24px;
-}
-
-.kicker {
-  display: inline-block;
-  margin-bottom: 10px;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-size: 13px;
-  font-weight: 600;
 }
 
 .note {
@@ -120,12 +103,6 @@ a:hover {
   font-size: 14px;
 }
 
-.footer {
-  margin-top: 24px;
-  font-size: 14px;
-  color: var(--muted);
-}
-
 ul,
 ol {
   padding-left: 20px;
@@ -137,11 +114,7 @@ code {
   background: #f1f2f3;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.92em;
-  display: block;
-  max-width: 100%;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-  word-break: break-all;
+  display: inline;
 }
 
 hr {
